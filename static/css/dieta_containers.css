@@ -1,0 +1,187 @@
+/* Style for container 1 */
+.container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+
+    margin: 20px 20px;
+
+
+    background-color: rgba(255, 255, 255, 0.123);
+
+
+    border: 2px solid black;
+    border-radius: 20px;
+}
+
+.container.rotate{
+    transform: rotate(720deg);
+    transition: 1s;
+}
+
+
+.container.bg{
+    background-color: rgb(71, 71, 71);
+}
+
+/* Style for container 2 */
+.container_2{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+    margin: 20px 20px;
+
+    background-color: rgba(255, 255, 255, 0.123);
+
+    border: 2px solid black;
+    border-radius: 20px;
+}
+
+
+.container_2.rotate{
+    transform: rotate(720deg);
+    transition: 1s;
+}
+
+
+.container_2.bg{
+    background-color: rgb(71, 71, 71);
+}
+
+
+/* Style for container 3 */
+.container_3{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+
+    margin: 20px 20px;
+
+
+    background-color: rgba(255, 255, 255, 0.123);
+
+
+    border: 2px solid black;
+    border-radius: 20px;
+}
+
+
+
+
+.container_3.rotate{
+    transform: rotate(720deg);
+    transition: 1s;
+}
+
+
+
+
+.container_3.bg{
+    background-color: rgb(71, 71, 71);
+}
+
+
+/* Style for container 4 */
+.container_4{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+
+    margin: 20px 20px;
+
+
+    background-color: rgba(255, 255, 255, 0.123);
+
+
+    border: 2px solid black;
+    border-radius: 20px;
+}
+
+
+
+
+.container_4.rotate{
+    transform: rotate(720deg);
+    transition: 1s;
+}
+
+
+
+
+.container_4.bg{
+    background-color: rgb(71, 71, 71);
+}
+
+
+/* Style for container 5 */
+.container_5{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+
+    margin: 20px 20px;
+
+
+    background-color: rgba(255, 255, 255, 0.123);
+
+
+    border: 2px solid black;
+    border-radius: 20px;
+}
+
+
+
+
+.container_5.rotate{
+    transform: rotate(720deg);
+    transition: 1s;
+}
+
+
+.container_5.bg{
+    background-color: rgb(71, 71, 71);
+}
+
+
+/* Style for container 6 */
+.container_6{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+
+    margin: 20px 20px;
+
+
+    background-color: rgba(255, 255, 255, 0.123);
+
+
+    border: 2px solid black;
+    border-radius: 20px;
+}
+
+
+
+
+.container_6.rotate{
+    transform: rotate(720deg);
+    transition: 1s;
+}
+
+
+
+
+.container_6.bg{
+    background-color: rgb(71, 71, 71);
+}
+
+
+
+.cross-text{
+    text-decoration: line-through;
+}

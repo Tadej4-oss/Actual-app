@@ -1,0 +1,90 @@
+body{
+    margin: 0;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    background: linear-gradient(to bottom, #034159, #02735E, #0CF25D);
+}
+
+.head{
+    font-size: 150px;
+    text-align: center;
+    margin: 30px auto 0 auto;
+}
+
+input{
+    margin: 30px auto 20px auto;
+    height: 250px;
+    width: 90%;
+    font-size: 70px;
+    border-radius: 20px;
+    background-color: #02735E;
+    border: 5px solid black;
+
+    -webkit-background-filter: blur(8px);
+    backdrop-filter: blur(8px);
+}
+
+input::placeholder{
+    color: black;
+}
+
+h1{
+    margin-bottom: 0;
+    display: flex;
+    justify-content: center;
+}
+
+.list{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    height: 100vh;
+}
+
+#add{
+    height: 200px;
+    margin: 10px 60px 40px 60px;
+
+    border: 2px solid black;
+    border-radius: 20px;
+
+    font-size: 70px;
+    font-weight: bold;
+
+    background-color: hsl(141, 91%, 50%);
+}
+
+
+#item{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    margin: 10px auto;
+
+    width: 90%;
+    min-height: 100px;
+    border: 2px solid black;
+    border-radius: 20px;
+
+    background-color: rgba(237, 238, 237, 0.144);
+    -webkit-background-filter: blur(8px);
+    backdrop-filter: blur(8px);
+}
+
+.remove_btn{
+    font-size: 50px;
+    height: 100px;
+
+    border: 3px solid black;
+    border-radius: 20px;
+    margin: 10px;
+
+    background-color: #0341596c;
+}
+
+p{
+    font-size: 50px;
+    margin: auto 30px auto 30px;
+}

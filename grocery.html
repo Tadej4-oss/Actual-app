@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang = "en">
+    <head>
+        <title>Grocery list</title>
+        <link rel = "stylesheet" href = "static/css/grocery.css">
+    </head>
+    <body>
+        <div class = "header">Grocery List</div>
+        <hr style = "width: 90%; margin: 0 auto;">
+        <div class = "container">
+            <div class = "column">
+                <p class = "maš">MAŠ</p>
+                <hr>
+                <p id = "0"class = "items">Oats</p>
+                <p id = "1"class = "items">PB</p>
+                <p id = "2"class = "items">whey</p>
+                <p id = "3"class = "items">rice cakes</p>
+                <p id = "4"class = "items">barries</p>
+                <p id = "5"class = "items">banana</p>
+                <p id = "6"class = "items">rice</p>
+                <p id = "7"class = "items">chicken</p>
+                <p id = "8"class = "items">skyr</p>
+                <p id = "9"class = "items">olive oil</p>
+                <p id = "10"class = "items">honey</p>
+                <p id = "11"class = "items">losos</p>
+                <p id = "12"class = "items">jajca</p>
+                <p id = "13"class = "items">kruh</p>
+            </div>
+            <div class = "column">
+                <button onclick = "swap(0)"style = "margin-top: 150px;"><-></button>
+                <button onclick = "swap(1)"><-></button>
+                <button onclick = "swap(2)"><-></button>
+                <button onclick = "swap(3)"><-></button>
+                <button onclick = "swap(4)"><-></button>
+                <button onclick = "swap(5)"><-></button>
+                <button onclick = "swap(6)"><-></button>
+                <button onclick = "swap(7)"><-></button>
+                <button onclick = "swap(8)"><-></button>
+                <button onclick = "swap(9)"><-></button>
+                <button onclick = "swap(10)"><-></button>
+                <button onclick = "swap(11)"><-></button>
+                <button onclick = "swap(12)"><-></button>
+                <button onclick = "swap(13)"><-></button>
+
+            </div>
+            <div class = "column">
+                <p class = "maš">NIMAŠ</p>
+                <hr>
+                <p id = "26" class = "items">Oats</p>
+                <p id = "27" class = "items">PB</p>
+                <p id = "28" class = "items">whey</p>
+                <p id = "29" class = "items">rice cakes</p>
+                <p id = "30" class = "items">barries</p>
+                <p id = "31" class = "items">banana</p>
+                <p id = "32" class = "items">rice</p>
+                <p id = "33" class = "items">chicken</p>
+                <p id = "34" class = "items">skyr</p>
+                <p id = "35" class = "items">olive oil</p>
+                <p id = "36" class = "items">honey</p>
+                <p id = "37" class = "items">losos</p>
+                <p id = "38" class = "items">jajca</p>
+                <p id = "39" class = "items">kruh</p>
+            </div>
+        </div>
+        <h1>Extra</h1>
+        <hr>
+        <div class = "head">
+            <input id = "input" autocomplete = "off">
+            <button id = "add" onclick = "add()"> ADD </button>
+        </div>
+        <div class = "list">
+
+        </div>
+    </body>
+    <script src = "static/js/grocery.script.js"></script>
+</html>

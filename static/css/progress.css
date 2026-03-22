@@ -1,0 +1,7 @@
+body{
+    margin: 0;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    background: linear-gradient(to bottom, #034159, #02735E, #0CF25D);
+}

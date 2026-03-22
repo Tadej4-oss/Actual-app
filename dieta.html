@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang = "en">
+    <head>
+        <title>Dieta</title>
+        <link rel = "stylesheet" href = "static/css/dieta.css">
+        <link rel = "stylesheet" href = "static/css/dieta_containers.css">
+    </head>
+    <body>
+        <div class = "header">Dieta Track</div>
+        <hr style = "width: 90%;">
+        
+        <!-- This is meal 1 -->
+        <div class = "container">
+
+            <div class = "meal">
+                <p class = "meal_done">Meal 1</p>
+            </div>
+            <hr style = "width: 70%; margin: 0 auto;">
+
+            <div class = "ingridients">
+                <input class = "tickbox" type = "checkbox">
+                <p class = "meal_done" >Oats</p> <p class = "weight">150g</p>
+            </div>
+
+            <div class = "ingridients">
+                <input class = "tickbox" type = "checkbox">
+                <p class = "meal_done" >Whey</p> <p class = "weight">30g</p>
+            </div>
+
+            <div class = "ingridients">
+                <input class = "tickbox" type = "checkbox">
+                <p class = "meal_done" >Peanut butter</p> <p class = "weight" >20g</p>
+            </div>
+            <button onclick = "meal1_done()" class = "done">DONE</button>
+        </div>
+
+        <!-- This is meal 2 -->
+        <div class = "container_2">
+            <div class = "meal">
+                <p class = "meal2_done">Meal 2</p>
+            </div>
+            <hr style = "width: 70%; margin: 0 auto;">
+
+            <div class = "ingridients">
+                <input class = "tickbox" type = "checkbox">
+                <p class = "meal2_done"> riž</p>  <p class = "weight">300g</p>
+            </div>
+
+            <div class = "ingridients">
+                <input class = "tickbox" type = "checkbox">
+                <p class = "meal2_done">pišče</p> <p class = "weight">200g</p>
+            </div>
+
+            <button onclick = "meal2_done()" class = "done">DONE</button>
+        </div>
+
+
+        <!-- This is meal 3 -->
+        <div class = "container_3">
+            <div class = "meal">
+                <p class = "meal3_done">Meal 3</p>
+            </div>
+            <hr style = "width: 70%; margin: 0 auto;">
+
+            <div class = "ingridients">
+                <input class = "tickbox" type = "checkbox">
+                <p class = "meal3_done"> riž</p>  <p class = "weight">300g</p>
+            </div>
+
+            <div class = "ingridients">
+                <input class = "tickbox" type = "checkbox">
+                <p class = "meal3_done">losos</p> <p class = "weight">220g</p>
+            </div>
+
+            <button onclick = "meal3_done()" class = "done">DONE</button>
+        </div>
+
+
+        <!-- This is Snack 1 -->
+        <div class = "container_4">
+            <div class = "meal">
+                <p class = "snack1_done">Snack 1</p>
+            </div>
+            <hr style = "width: 70%; margin: 0 auto;">
+
+            <div class = "ingridients">
+                <input class = "tickbox" type = "checkbox">
+                <p class = "snack1_done">Rice Cakes</p>  <p class = "weight" >4 pc</p>
+            </div>
+
+            <div class = "ingridients">
+                <input class = "tickbox" type = "checkbox">
+                <p class = "snack1_done">Barries</p> <p class = "weight" >150g</p>
+            </div>
+
+            <div class = "ingridients">
+                <input class = "tickbox" type = "checkbox">
+                <p class = "snack1_done">Whey</p><p class = "weight">30g</p>
+            </div>
+
+            <button onclick = "snack1_done()" class = "done">DONE</button>
+        </div>
+
+        <!-- This is Snack 2 -->
+        <div class = "container_5">
+
+            <div class = "meal">
+                <p class = "snack2_done">Snack 2</p>
+            </div>
+            <hr style = "width: 70%; margin: 0 auto;">
+
+            <div class = "ingridients">
+                <input class = "tickbox" type = "checkbox">
+                <p class = "snack2_done">Oats</p>  <p class = "weight">70g</p>
+            </div>
+
+            <div class = "ingridients">
+                <input class = "tickbox" type = "checkbox">
+                <p class = "snack2_done">Skyr</p> <p class = "weight">200g</p>
+            </div>
+
+            <div class = "ingridients">
+                <input class = "tickbox" type = "checkbox">
+                <p class = "snack2_done">PB</p> <p class = "weight">15g</p>
+            </div>
+
+            <div class = "ingridients">
+                <input class = "tickbox" type = "checkbox">
+                <p class = "snack2_done">Honey</p> <p class = "weight">15g</p>
+            </div>
+
+            <div class = "ingridients">
+                <input class = "tickbox" type = "checkbox">
+                <p class = "snack2_done">Olive Oil</p> <p class = "weight">25ml</p>
+            </div>
+
+            <button onclick = "snack2_done()" class = "done">DONE</button>
+        </div>
+
+        <!-- This is Snack 3 -->
+        <div class = "container_6">
+            <div class = "meal">
+                <p class = "snack3_done">Snack 3</p>
+            </div>
+            <hr style = "width: 70%; margin: 0 auto;">
+
+            <div class = "ingridients">
+                <input class = "tickbox" type = "checkbox">
+                <p class = "snack3_done">Jajca</p>  <p class = "weight">3 Large</p>
+            </div>
+
+            <div class = "ingridients">
+                <input class = "tickbox" type = "checkbox">
+                <p class = "snack3_done">Kruh (polnozrnat)</p> <p class = "weight">2pc (50g)</p>
+            </div>
+
+            <div class = "ingridients">
+                <input class = "tickbox" type = "checkbox">
+                <p class = "snack3_done">PB</p> <p class = "weight">15g</p>
+            </div>
+
+            <button onclick = "snack3_done()" class = "done">DONE</button>
+        </div>
+    </body>
+    <script src = "static/js/script.dieta.js"></script>
+</html>

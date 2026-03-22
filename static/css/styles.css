@@ -1,0 +1,131 @@
+body{
+    margin: 0;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    background: linear-gradient(to bottom, #034159, #02735E, #0CF25D);
+}
+
+#header{
+    height: 200px;
+    background-color: rgba(0, 0, 0, 0);
+    margin-top: 0;
+    color: white;
+    display: flex;
+    justify-content: center;
+}
+
+#title{
+    margin: 50px auto;
+    font-size: 100px;
+}
+
+#content{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    margin: 20px 10px;
+}
+
+.btn{
+    padding: 20px;
+    margin: 5px auto;
+    font-size: 50px;
+    border: 1px solid black;
+    width: 90%;
+    height: 160px;
+    border: 5px solid rgba(0, 0, 0, 0.315);
+    border-radius: 20px;
+
+    background-color: #02735e4f;
+    -webkit-background-filter: blur(8px);
+    backdrop-filter: blur(8px);
+
+}
+
+.a_btn{
+    display: flex;
+
+    border: 3px solid black;
+    border-radius: 20px;
+    height: 160px;
+    width: 90%;
+    margin: 5px auto;
+    color: black;
+    font-size: 70px;
+    text-decoration: none;
+
+
+    justify-content: center;
+    align-items: center;
+
+
+    background-color: #02735e4f;
+    -webkit-background-filter: blur(8px);
+    backdrop-filter: blur(8px);
+}
+
+#dropdown{
+    height: 90%;
+    width: 50%;
+    background-color: #02595042;
+    border-radius: 20px;
+    border: 2px solid rgba(0, 0, 0, 0.247);
+    margin: 25px;
+    font-size: 50px;      
+    
+    -webkit-background-filter: blur(8px);
+    backdrop-filter: blur(8px);
+}
+
+#app_title{
+    margin: 0 auto;
+    text-align: center;  
+    font-size: 170px;
+    font-weight: bolder;
+}
+
+#app_home{
+    margin: 0 auto;
+    text-align: center;
+    font-size: 150px;
+    font-weight: bold;
+
+}
+
+
+
+
+
+
+
+
+
+
+
+#sidemenu {
+    display: flex;
+    flex-direction: column;
+    position: fixed;
+    left: -250px;
+    top: 0;
+    width: 250px;
+    height: 100vh;
+    background: #11111100;
+    color: white;
+    padding: 20px;
+    transition: left 1s;
+}
+
+#sidemenu.open {
+  left: 0;
+}
+
+
+.a_sidemenu{
+    font-size: 30px;
+    color: white;
+    margin: 25px auto;
+    text-align: center;
+    max-width: 200px;
+}
